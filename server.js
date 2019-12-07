@@ -69,6 +69,7 @@ io.on('connection', socket => {
 });
 
 app.use(cors());
+// app.use(router);
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
   // Set static folder
